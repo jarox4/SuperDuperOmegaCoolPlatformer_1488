@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4007593639147045880}
   - component: {fileID: 8759734411514431261}
   - component: {fileID: 1596862096425285421}
+  - component: {fileID: 7285010696031039627}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -48,12 +49,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 184936d75463e814c92581ba0a665480, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _layerMask:
-    serializedVersion: 2
-    m_Bits: 8
-  _groundCheck: {fileID: 7836131240651097291}
-  _speed: 350
-  _jumpForce: 350
 --- !u!50 &8759734411514431261
 Rigidbody2D:
   serializedVersion: 4
@@ -101,6 +96,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.860552}
   m_EdgeRadius: 0
+--- !u!114 &7285010696031039627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1526949362320516692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e02142fc1ac6ee541b84777db392aa6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _speed: 350
+  _jumpForce: 350
+  _groundLayerMask:
+    serializedVersion: 2
+    m_Bits: 8
+  _groundCheck: {fileID: 7836131240651097291}
 --- !u!1 &3779955295161300945
 GameObject:
   m_ObjectHideFlags: 0
