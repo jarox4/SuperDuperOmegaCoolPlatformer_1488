@@ -5,7 +5,7 @@ namespace Scripts
     class GameLoop : MonoBehaviour
     {
         [SerializeField]
-        SpawnManager _spawnManager;
+        private SpawnManager _spawnManager;
 
         void Start()
         {

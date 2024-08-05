@@ -5,7 +5,7 @@ namespace Scripts
 {
     class UnitControllerFactory
     {
-        PrefabsScriptable _prefabs;
+        private PrefabsScriptable _prefabs;
         public UnitControllerFactory(PrefabsScriptable prefabs)
         {
             _prefabs = prefabs;

@@ -5,7 +5,7 @@ namespace Scripts
     public class GameStateMachine : MonoBehaviour
     {
         [SerializeField]
-        GameLoop loop;
+        private GameLoop loop;
     }
 }
 public enum GameState
