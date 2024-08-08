@@ -1,7 +1,4 @@
-﻿using System;
-using UnityEngine;
-
-namespace Scripts
+﻿namespace Scripts
 {
     class PlayerController : UnitController
     {

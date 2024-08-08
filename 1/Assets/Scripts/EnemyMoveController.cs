@@ -4,21 +4,11 @@ using UnityEngine;
 
 namespace Scripts
 {
-    public class EnemyMoveController : MoveController
+    class EnemyMoveController : TransformController
     {
-        protected override void Jump()
+        protected override void InitBehaviours()
         {
             throw new System.NotImplementedException();
-        }
-
-        protected override void Move()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        private void Update()
-        {
-            Debug.Log("SOSAL??!!");
         }
     }
 }

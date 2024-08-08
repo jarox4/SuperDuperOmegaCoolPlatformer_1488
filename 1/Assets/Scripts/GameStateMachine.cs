@@ -2,10 +2,14 @@ using UnityEngine;
 
 namespace Scripts
 {
-    public class GameStateMachine : MonoBehaviour
+    class GameStateMachine
     {
-        [SerializeField]
-        private GameLoop loop;
+        private GameLoop _loop;
+
+        public GameStateMachine(GameLoop loop)
+        {
+            _loop = loop;
+        }
     }
 }
 public enum GameState

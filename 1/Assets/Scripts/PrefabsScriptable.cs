@@ -6,6 +6,8 @@ namespace Scripts
     class PrefabsScriptable : ScriptableObject
     {
         [SerializeField]
-        public GameObject prefab;
+        private GameObject _playerPrefab;
+
+        public GameObject PlayerPrefab { get { return _playerPrefab; } }
     }
 }

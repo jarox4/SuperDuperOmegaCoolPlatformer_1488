@@ -2,14 +2,14 @@
 
 namespace Scripts
 {
-    class GameLoop : MonoBehaviour
+    class GameLoop
     {
-        [SerializeField]
-        private SpawnManager _spawnManager;
+        private UnitControllerFactory _controllerFactory;
 
-        void Start()
+        public GameLoop(UnitControllerFactory controllerFactory)
         {
-            _spawnManager.CreateUnit(UnitType.Player);
+            _controllerFactory = controllerFactory;
+            _controllerFactory.CreateUnitController(UnitType.Player);
         }
     }
 }

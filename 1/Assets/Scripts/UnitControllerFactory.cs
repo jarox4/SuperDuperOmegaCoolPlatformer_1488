@@ -10,16 +10,16 @@ namespace Scripts
         {
             _prefabs = prefabs;
         }
-        public GameObject CreateUnitLogic(UnitType type)
+        public GameObject CreateUnitController(UnitType type)
         {
             switch (type)
             {
                 case UnitType.Player:
-                    return UnityEngine.Object.Instantiate(_prefabs.prefab);
+                    return UnityEngine.Object.Instantiate(_prefabs.PlayerPrefab);
                 case UnitType.Enemy:
-                    return UnityEngine.Object.Instantiate(_prefabs.prefab);
+                    return UnityEngine.Object.Instantiate(_prefabs.PlayerPrefab);
                 case UnitType.Ally:
-                    return UnityEngine.Object.Instantiate(_prefabs.prefab);
+                    return UnityEngine.Object.Instantiate(_prefabs.PlayerPrefab);
                 default:
                     throw new NotImplementedException();
             }
