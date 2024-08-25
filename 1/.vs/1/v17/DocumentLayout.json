@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\sdimo\\Documents\\GitHub\\SuperDuperOmegaCoolPlatformer_1488\\1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{77BB0C59-6EDF-441D-78FC-8511ED0AC6CC}|Assembly-CSharp.csproj|c:\\users\\sdimo\\documents\\github\\superduperomegacoolplatformer_1488\\1\\assets\\scripts\\enemymovecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77BB0C59-6EDF-441D-78FC-8511ED0AC6CC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemymovecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{77BB0C59-6EDF-441D-78FC-8511ED0AC6CC}|Assembly-CSharp.csproj|c:\\users\\sdimo\\documents\\github\\superduperomegacoolplatformer_1488\\1\\assets\\scripts\\transformcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77BB0C59-6EDF-441D-78FC-8511ED0AC6CC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\transformcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77BB0C59-6EDF-441D-78FC-8511ED0AC6CC}|Assembly-CSharp.csproj|c:\\users\\sdimo\\documents\\github\\superduperomegacoolplatformer_1488\\1\\assets\\scripts\\inputmovecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77BB0C59-6EDF-441D-78FC-8511ED0AC6CC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inputmovecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{77BB0C59-6EDF-441D-78FC-8511ED0AC6CC}|Assembly-CSharp.csproj|c:\\users\\sdimo\\documents\\github\\superduperomegacoolplatformer_1488\\1\\assets\\scripts\\abstract classes\\unitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77BB0C59-6EDF-441D-78FC-8511ED0AC6CC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\abstract classes\\unitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77BB0C59-6EDF-441D-78FC-8511ED0AC6CC}|Assembly-CSharp.csproj|c:\\users\\sdimo\\documents\\github\\superduperomegacoolplatformer_1488\\1\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77BB0C59-6EDF-441D-78FC-8511ED0AC6CC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77BB0C59-6EDF-441D-78FC-8511ED0AC6CC}|Assembly-CSharp.csproj|c:\\users\\sdimo\\documents\\github\\superduperomegacoolplatformer_1488\\1\\assets\\scripts\\allycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77BB0C59-6EDF-441D-78FC-8511ED0AC6CC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\allycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77BB0C59-6EDF-441D-78FC-8511ED0AC6CC}|Assembly-CSharp.csproj|c:\\users\\sdimo\\documents\\github\\superduperomegacoolplatformer_1488\\1\\assets\\scripts\\high-level classes\\unitcontrollerfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77BB0C59-6EDF-441D-78FC-8511ED0AC6CC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\high-level classes\\unitcontrollerfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77BB0C59-6EDF-441D-78FC-8511ED0AC6CC}|Assembly-CSharp.csproj|c:\\users\\sdimo\\documents\\github\\superduperomegacoolplatformer_1488\\1\\assets\\scripts\\gun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77BB0C59-6EDF-441D-78FC-8511ED0AC6CC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +39,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "EnemyMoveController.cs",
-              "DocumentMoniker": "C:\\Users\\sdimo\\Documents\\GitHub\\SuperDuperOmegaCoolPlatformer_1488\\1\\Assets\\Scripts\\EnemyMoveController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyMoveController.cs",
-              "ToolTip": "C:\\Users\\sdimo\\Documents\\GitHub\\SuperDuperOmegaCoolPlatformer_1488\\1\\Assets\\Scripts\\EnemyMoveController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\EnemyMoveController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAaAAAA",
+              "Title": "TransformController.cs",
+              "DocumentMoniker": "C:\\Users\\sdimo\\Documents\\GitHub\\SuperDuperOmegaCoolPlatformer_1488\\1\\Assets\\Scripts\\TransformController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TransformController.cs",
+              "ToolTip": "C:\\Users\\sdimo\\Documents\\GitHub\\SuperDuperOmegaCoolPlatformer_1488\\1\\Assets\\Scripts\\TransformController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TransformController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T16:32:38.779Z",
+              "WhenOpened": "2024-08-08T21:21:04.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UnitControllerFactory.cs",
+              "DocumentMoniker": "C:\\Users\\sdimo\\Documents\\GitHub\\SuperDuperOmegaCoolPlatformer_1488\\1\\Assets\\Scripts\\High-level classes\\UnitControllerFactory.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\High-level classes\\UnitControllerFactory.cs",
+              "ToolTip": "C:\\Users\\sdimo\\Documents\\GitHub\\SuperDuperOmegaCoolPlatformer_1488\\1\\Assets\\Scripts\\High-level classes\\UnitControllerFactory.cs",
+              "RelativeToolTip": "Assets\\Scripts\\High-level classes\\UnitControllerFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T21:14:24.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Gun.cs",
+              "DocumentMoniker": "C:\\Users\\sdimo\\Documents\\GitHub\\SuperDuperOmegaCoolPlatformer_1488\\1\\Assets\\Scripts\\Gun.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Gun.cs",
+              "ToolTip": "C:\\Users\\sdimo\\Documents\\GitHub\\SuperDuperOmegaCoolPlatformer_1488\\1\\Assets\\Scripts\\Gun.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Gun.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBQAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T21:11:19.98Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "InputMoveController.cs",
-              "DocumentMoniker": "C:\\Users\\sdimo\\Documents\\GitHub\\SuperDuperOmegaCoolPlatformer_1488\\1\\Assets\\Scripts\\InputMoveController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\InputMoveController.cs",
-              "ToolTip": "C:\\Users\\sdimo\\Documents\\GitHub\\SuperDuperOmegaCoolPlatformer_1488\\1\\Assets\\Scripts\\InputMoveController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\InputMoveController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA5AAAA",
+              "Title": "UnitController.cs",
+              "DocumentMoniker": "C:\\Users\\sdimo\\Documents\\GitHub\\SuperDuperOmegaCoolPlatformer_1488\\1\\Assets\\Scripts\\Abstract classes\\UnitController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Abstract classes\\UnitController.cs",
+              "ToolTip": "C:\\Users\\sdimo\\Documents\\GitHub\\SuperDuperOmegaCoolPlatformer_1488\\1\\Assets\\Scripts\\Abstract classes\\UnitController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Abstract classes\\UnitController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T16:15:30.473Z",
+              "WhenOpened": "2024-08-08T21:00:55.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\sdimo\\Documents\\GitHub\\SuperDuperOmegaCoolPlatformer_1488\\1\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\sdimo\\Documents\\GitHub\\SuperDuperOmegaCoolPlatformer_1488\\1\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T20:35:15.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AllyController.cs",
+              "DocumentMoniker": "C:\\Users\\sdimo\\Documents\\GitHub\\SuperDuperOmegaCoolPlatformer_1488\\1\\Assets\\Scripts\\AllyController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AllyController.cs",
+              "ToolTip": "C:\\Users\\sdimo\\Documents\\GitHub\\SuperDuperOmegaCoolPlatformer_1488\\1\\Assets\\Scripts\\AllyController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AllyController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T20:10:45.98Z",
               "EditorCaption": ""
             }
           ]

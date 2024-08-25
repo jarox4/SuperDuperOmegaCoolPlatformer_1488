@@ -25,4 +25,10 @@ namespace Scripts
             }
         }
     }
+    public enum UnitType
+    {
+        Player,
+        Enemy,
+        Ally
+    }
 }

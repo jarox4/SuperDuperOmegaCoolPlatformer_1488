@@ -18,9 +18,3 @@ public enum GameState
     Pause,
     GameOver
 }
-public enum UnitType
-{
-    Player,
-    Enemy,
-    Ally
-}

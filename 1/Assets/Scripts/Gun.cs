@@ -18,7 +18,7 @@ namespace Scripts
 
         private void Shoot()
         {
-            Instantiate(_bulletPrefab).transform.rotation = transform.rotation;
+            //Instantiate(_bulletPrefab).transform.rotation = transform.rotation;
         }
         public void TryShoot(Vector3 direction)
         {
